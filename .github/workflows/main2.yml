@@ -1,0 +1,9 @@
+name: test run-name: 
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello-inline-bash:
+    runs-on:  master_404_rhel91
+    steps:
+      - run: ls -las
